@@ -52,11 +52,19 @@ extension NumbersViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         
-        let cell = (tableView.dequeueReusableCell(withIdentifier: NumbersTableViewCell.getCellIdentifier())) as! NumbersTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: NumbersTableViewCell.getCellIdentifier()) as! NumbersTableViewCell
         
         let number = array[indexPath.row]
         cell.numberLabel.text = "\(number)"
         
+        if (number % 2 == 0)
+        {
+        cell.backgroundColor = UIColor.red
+        }
+        else
+        {
+        cell.backgroundColor = UIColor.blue
+        }
         return cell
     }
     
