@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2025FB4A30EB2E5CB51DF907 /* Pods_Tarea3_Dogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4D06DC89D40DF857A7647D /* Pods_Tarea3_Dogs.framework */; };
+		C0FCA06C1EDD014B00998142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCA06B1EDD014B00998142 /* AppDelegate.swift */; };
+		C0FCA0711EDD014C00998142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FCA06F1EDD014B00998142 /* Main.storyboard */; };
+		C0FCA0731EDD014C00998142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FCA0721EDD014C00998142 /* Assets.xcassets */; };
+		C0FCA0761EDD014C00998142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FCA0741EDD014C00998142 /* LaunchScreen.storyboard */; };
+		C0FCA07E1EDD01B700998142 /* DogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCA07D1EDD01B700998142 /* DogsViewController.swift */; };
+		C0FCA0801EDD02B400998142 /* AddDogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCA07F1EDD02B400998142 /* AddDogsViewController.swift */; };
+		C0FCA0851EDD8C1800998142 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCA0841EDD8C1800998142 /* Helper.swift */; };
+		C0FCA0871EDD8C4300998142 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCA0861EDD8C4300998142 /* RealmManager.swift */; };
+		C0FCA08A1EDD8CAB00998142 /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCA0881EDD8CAB00998142 /* DogTableViewCell.swift */; };
+		C0FCA08B1EDD8CAB00998142 /* DogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FCA0891EDD8CAB00998142 /* DogTableViewCell.xib */; };
+		C0FCA08D1EDD909000998142 /* Dogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCA08C1EDD909000998142 /* Dogs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		391FE9A051CC1B116C4060CB /* Pods-Tarea3 Dogs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarea3 Dogs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tarea3 Dogs/Pods-Tarea3 Dogs.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4D06DC89D40DF857A7647D /* Pods_Tarea3_Dogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tarea3_Dogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FCA0681EDD014B00998142 /* Tarea3 Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarea3 Dogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FCA06B1EDD014B00998142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0FCA0701EDD014B00998142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0FCA0721EDD014C00998142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0FCA0751EDD014C00998142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0FCA0771EDD014C00998142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FCA07D1EDD01B700998142 /* DogsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogsViewController.swift; sourceTree = "<group>"; };
+		C0FCA07F1EDD02B400998142 /* AddDogsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDogsViewController.swift; sourceTree = "<group>"; };
+		C0FCA0841EDD8C1800998142 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C0FCA0861EDD8C4300998142 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		C0FCA0881EDD8CAB00998142 /* DogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTableViewCell.swift; sourceTree = "<group>"; };
+		C0FCA0891EDD8CAB00998142 /* DogTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DogTableViewCell.xib; sourceTree = "<group>"; };
+		C0FCA08C1EDD909000998142 /* Dogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dogs.swift; path = ../Dogs.swift; sourceTree = "<group>"; };
+		D2DE8350FBB9E351B93A5B30 /* Pods-Tarea3 Dogs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarea3 Dogs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tarea3 Dogs/Pods-Tarea3 Dogs.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0FCA0651EDD014B00998142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2025FB4A30EB2E5CB51DF907 /* Pods_Tarea3_Dogs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A7277A4B50DFBDC224CB87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				391FE9A051CC1B116C4060CB /* Pods-Tarea3 Dogs.debug.xcconfig */,
+				D2DE8350FBB9E351B93A5B30 /* Pods-Tarea3 Dogs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0FCA05F1EDD014900998142 = {
+			isa = PBXGroup;
+			children = (
+				C0FCA06A1EDD014B00998142 /* Tarea3 Dogs */,
+				C0FCA0691EDD014B00998142 /* Products */,
+				10A7277A4B50DFBDC224CB87 /* Pods */,
+				CABF1AF8940EBB46E527D72B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FCA0691EDD014B00998142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FCA0681EDD014B00998142 /* Tarea3 Dogs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FCA06A1EDD014B00998142 /* Tarea3 Dogs */ = {
+			isa = PBXGroup;
+			children = (
+				C0FCA0831EDD8C0000998142 /* Extensions */,
+				C0FCA0821EDD8BF300998142 /* Managers */,
+				C0FCA0811EDD8BE600998142 /* CustomCell */,
+				C0FCA08C1EDD909000998142 /* Dogs.swift */,
+				C0FCA06B1EDD014B00998142 /* AppDelegate.swift */,
+				C0FCA06F1EDD014B00998142 /* Main.storyboard */,
+				C0FCA07D1EDD01B700998142 /* DogsViewController.swift */,
+				C0FCA07F1EDD02B400998142 /* AddDogsViewController.swift */,
+				C0FCA0721EDD014C00998142 /* Assets.xcassets */,
+				C0FCA0741EDD014C00998142 /* LaunchScreen.storyboard */,
+				C0FCA0771EDD014C00998142 /* Info.plist */,
+			);
+			path = "Tarea3 Dogs";
+			sourceTree = "<group>";
+		};
+		C0FCA0811EDD8BE600998142 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				C0FCA0881EDD8CAB00998142 /* DogTableViewCell.swift */,
+				C0FCA0891EDD8CAB00998142 /* DogTableViewCell.xib */,
+			);
+			name = CustomCell;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C0FCA0821EDD8BF300998142 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C0FCA0861EDD8C4300998142 /* RealmManager.swift */,
+			);
+			name = Managers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C0FCA0831EDD8C0000998142 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0FCA0841EDD8C1800998142 /* Helper.swift */,
+			);
+			name = Extensions;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CABF1AF8940EBB46E527D72B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C4D06DC89D40DF857A7647D /* Pods_Tarea3_Dogs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0FCA0671EDD014B00998142 /* Tarea3 Dogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FCA07A1EDD014C00998142 /* Build configuration list for PBXNativeTarget "Tarea3 Dogs" */;
+			buildPhases = (
+				F3536400384436D204DD9323 /* [CP] Check Pods Manifest.lock */,
+				C0FCA0641EDD014B00998142 /* Sources */,
+				C0FCA0651EDD014B00998142 /* Frameworks */,
+				C0FCA0661EDD014B00998142 /* Resources */,
+				779963235E135A33DB9321D8 /* [CP] Embed Pods Frameworks */,
+				1F197E557AE360A926276DA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tarea3 Dogs";
+			productName = "Tarea3 Dogs";
+			productReference = C0FCA0681EDD014B00998142 /* Tarea3 Dogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FCA0601EDD014900998142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ana Rodriguez";
+				TargetAttributes = {
+					C0FCA0671EDD014B00998142 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C0FCA0631EDD014A00998142 /* Build configuration list for PBXProject "Tarea3 Dogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0FCA05F1EDD014900998142;
+			productRefGroup = C0FCA0691EDD014B00998142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FCA0671EDD014B00998142 /* Tarea3 Dogs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FCA0661EDD014B00998142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FCA0761EDD014C00998142 /* LaunchScreen.storyboard in Resources */,
+				C0FCA0731EDD014C00998142 /* Assets.xcassets in Resources */,
+				C0FCA08B1EDD8CAB00998142 /* DogTableViewCell.xib in Resources */,
+				C0FCA0711EDD014C00998142 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F197E557AE360A926276DA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tarea3 Dogs/Pods-Tarea3 Dogs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		779963235E135A33DB9321D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tarea3 Dogs/Pods-Tarea3 Dogs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3536400384436D204DD9323 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0FCA0641EDD014B00998142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FCA08D1EDD909000998142 /* Dogs.swift in Sources */,
+				C0FCA06C1EDD014B00998142 /* AppDelegate.swift in Sources */,
+				C0FCA0801EDD02B400998142 /* AddDogsViewController.swift in Sources */,
+				C0FCA08A1EDD8CAB00998142 /* DogTableViewCell.swift in Sources */,
+				C0FCA0871EDD8C4300998142 /* RealmManager.swift in Sources */,
+				C0FCA07E1EDD01B700998142 /* DogsViewController.swift in Sources */,
+				C0FCA0851EDD8C1800998142 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0FCA06F1EDD014B00998142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FCA0701EDD014B00998142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0FCA0741EDD014C00998142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FCA0751EDD014C00998142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0FCA0781EDD014C00998142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0FCA0791EDD014C00998142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0FCA07B1EDD014C00998142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391FE9A051CC1B116C4060CB /* Pods-Tarea3 Dogs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tarea3 Dogs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anamaria-238.Tarea3-Dogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0FCA07C1EDD014C00998142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DE8350FBB9E351B93A5B30 /* Pods-Tarea3 Dogs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tarea3 Dogs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anamaria-238.Tarea3-Dogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0FCA0631EDD014A00998142 /* Build configuration list for PBXProject "Tarea3 Dogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FCA0781EDD014C00998142 /* Debug */,
+				C0FCA0791EDD014C00998142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FCA07A1EDD014C00998142 /* Build configuration list for PBXNativeTarget "Tarea3 Dogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FCA07B1EDD014C00998142 /* Debug */,
+				C0FCA07C1EDD014C00998142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FCA0601EDD014900998142 /* Project object */;
+}
