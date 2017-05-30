@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CatTableViewCell" customModule="Quiz_4" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pBF-nk-6U9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="20.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40C-sk-DOw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ki6-Np-xAE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="40C-sk-DOw" secondAttribute="trailing" constant="10" id="0hc-ED-Ltu"/>
+                            <constraint firstItem="40C-sk-DOw" firstAttribute="top" secondItem="pBF-nk-6U9" secondAttribute="top" constant="10" id="Fur-mo-CQF"/>
+                            <constraint firstItem="40C-sk-DOw" firstAttribute="leading" secondItem="pBF-nk-6U9" secondAttribute="leading" constant="10" id="PhF-6b-fuU"/>
+                            <constraint firstAttribute="bottom" secondItem="40C-sk-DOw" secondAttribute="bottom" constant="10" id="tI1-31-3FV"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pBF-nk-6U9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ktu-IN-fPz"/>
+                    <constraint firstAttribute="bottom" secondItem="pBF-nk-6U9" secondAttribute="bottom" id="XD5-He-uHh"/>
+                    <constraint firstItem="pBF-nk-6U9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eZc-6q-YAC"/>
+                    <constraint firstAttribute="trailing" secondItem="pBF-nk-6U9" secondAttribute="trailing" id="qwy-0t-OmI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="40C-sk-DOw" id="PhN-46-sDM"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
