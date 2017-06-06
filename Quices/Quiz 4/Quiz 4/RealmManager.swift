@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-class RealmManager: NSObject {
+class RealmManager: Object {
     
     class func getAllCats() -> Results<Cat>?{
         let realm = try! Realm()
